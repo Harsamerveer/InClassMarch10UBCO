@@ -10,11 +10,10 @@ function getProductById(req, res) {
     const product = productService.getProductById(id);
     
     if (product) {
-        res.json(product);
+        return res.json(product);
     } else {
-        res.status(404).json({ message: 'Product not found' });
+        return res.status(404).json({ message: 'Product not found' });
     }
-    res.json(product);
 
 }
 
