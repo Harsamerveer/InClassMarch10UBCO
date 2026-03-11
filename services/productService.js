@@ -5,7 +5,8 @@ function getAllProducts() {
 }
 
 function getProductById(id) {
-    return products.find(product => product.id === id);
+    return products.find(p => p.id === parseInt(id));
+
 }
 
 module.exports = {
