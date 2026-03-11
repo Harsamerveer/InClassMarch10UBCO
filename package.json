@@ -1,0 +1,24 @@
+{
+  "name": "inclassmarch10ubco",
+  "version": "1.0.0",
+  "description": "This project implements a simple RESTful API using Node.js and Express. The goal of the assignment was to design and organize API endpoints following REST principles while maintaining a clean project structure.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsamerveer/InClassMarch10UBCO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Harsamerveer/InClassMarch10UBCO/issues"
+  },
+  "homepage": "https://github.com/Harsamerveer/InClassMarch10UBCO#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
